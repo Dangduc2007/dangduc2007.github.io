@@ -1,0 +1,40 @@
+#banner img{
+    width:100%;
+    height:500px;
+}
+*{box-sizing: border-box;}
+
+.col{
+    float:left;
+    width:33.3333333%;
+    padding:15px;
+    position:relative;
+}
+img{max-width: 100%;}
+.thumb img {
+    vertical-align: middle;
+
+}
+.thumb{
+    padding:3px;
+    border:1px solid #ddd;
+
+}
+.thumb img:hover{
+border-radius: 20%;
+}
+#main-menu a{text-decoration: none;
+    margin:30px;
+    padding:10px;
+    font-size: 20px;
+
+}
+#main-menu a.active {color:black;}
+h1{
+    color:orangered;
+    font-size: 30px;
+
+}
+#main-menu{
+    background-color:gainsboro;
+}
