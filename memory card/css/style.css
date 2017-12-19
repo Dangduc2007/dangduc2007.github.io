@@ -1,0 +1,137 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    overflow-y: scroll;
+    background-image: url("../img/wall.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.content {
+    display: block;
+    /* float: left; */
+    width: 890px;
+    padding: 20px 10px;
+    margin: 0 auto;
+    z-index:1;
+    position: relative;
+}
+.card {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+}
+img{
+    width: 130px;
+    height: 185px;
+    border-radius: 5px;
+}
+.font:hover{
+      box-shadow: 0px 0px 15px white;
+}
+
+.back{
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 15px #f1f1f1;
+    }
+.card.flipped .font{
+    transform: rotateY(180deg);}
+.card.flipped .back{
+    transform: rotateY(0deg);}
+.card .back, .card .font{
+    transition: all 0.5s;
+    backface-visibility: hidden;
+}
+/*--------------------------------------------------------------*/
+#notification {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index:2;
+    /*background-color: rgba(255, 255, 255, 0.47);*/
+}
+.messenger {
+    width:630px;
+    height:310px;
+    /*background-color: #f1f1f1;*/
+    background-image: url("../img/start.jpg");
+    overflow:inherit;
+    padding: 20px;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    top: 140px;
+    left:360px;
+    }
+.messenger h1{
+    font-size: 45px;
+    color:#FF5722;
+}
+.messenger button {
+    margin-top: 140px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FF3933;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.messenger button:hover{
+    background-color: #FF8D33;
+}
+progress{
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+    /*margin-top: 20px;*/
+    height: 20px;
+    background-color: yellow;
+    border-radius: 2px;
+}
+#snow{
+    background: none;
+    font-family: Androgyne;
+    background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index:1;
+    -webkit-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
+    animation: snow 10s linear infinite;
+}
+
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
