@@ -103,7 +103,9 @@ progress{
 #snow{
     background: none;
     font-family: Androgyne;
-    background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+    background-image:url(https://image.ibb.co/k0aqx6/snow.png), 
+        url(https://image.ibb.co/eCahc6/snow1.png), 
+        url(https://image.ibb.co/bOboH6/snow2.png);
     height: 100%;
     left: 0;
     position: absolute;
