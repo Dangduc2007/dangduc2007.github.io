@@ -1,0 +1,88 @@
+*{margin: 0;
+    padding: 0;
+}
+nav{
+    height:80px;
+    line-height: 80px;
+    margin-bottom:40px;
+    
+
+ 
+}
+.nav-wrapper .brand-logo {
+    font-size: 4em;
+
+}
+.card h5{
+    font-size: 2em;
+    margin-left: 10px;
+    padding-top: 10px;}
+
+
+.todo{
+	background: #4CAF50;
+}
+.doing{
+	    background: rgb(255, 97, 97);
+}
+.done{
+	    background:#FF9800;
+}
+
+
+
+
+
+
+
+
+
+.sorted-list a .badge{
+    display: none;
+}
+.sorted-list a:hover .badge{
+    display: block;}
+ .input-field label {
+    color: #000000;
+}
+.card{
+			/*width: 200px;
+			height: 200px;*/
+			padding: 8px;
+			/*background: rgb(252, 242, 132);*/
+			margin: 0 auto;
+			margin-top: 50px;
+			border: 1px solid rgba(255, 255, 255, 0);
+			position: relative;
+			-webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+			-moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+		}
+		.card:after
+		{
+			z-index: -1;
+			position: absolute;
+			background: transparent;
+			width: 70%;
+			height: 55%;
+			content: '';
+			right: 24px;
+			bottom: 11px;
+			-webkit-transform: skew(15deg) rotate(5deg);
+			-webkit-box-shadow: 8px 12px 7px rgba(0, 0, 0, 0.3);
+			-moz-transform: skew(15deg) rotate(5deg);
+			-moz-box-shadow: 8px 12px 7px rgba(0, 0, 0, 0.3);
+		}
+		.card:before{
+			z-index: -2;
+			position: absolute;
+			background: transparent;
+			width: 70%;
+			height: 55%;
+			content: '';
+			left: 24px;
+			bottom: 11px;
+			-webkit-transform: skew(-15deg) rotate(-5deg);
+			-webkit-box-shadow: -8px 12px 7px rgba(0, 0, 0, 0.3);
+			-moz-transform: skew(-15deg) rotate(-5deg);
+			-moz-box-shadow: -8px 12px 7px rgba(0, 0, 0, 0.3);
+		}
