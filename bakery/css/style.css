@@ -1,0 +1,477 @@
+body{
+	min-height:;
+}
+@font-face{
+font-family:'scriptina';
+src:url('../font/SCRIPTIN.ttf');
+/*src:url('../font/SCRIPTIN.woff')format('woff');*/
+font-weight: bold;
+font-style:normal;
+}
+@font-face{
+font-family:'proxima nova';
+src:url('../font/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf');
+/*src:url('../font/SCRIPTIN.woff')format('woff');*/
+font-weight:normal;
+font-style:normal;}
+/********header**************************/
+/************navigation*********************/
+#header{
+	background:url('../img/banner.jpg');
+	padding-bottom: 178px;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.3);
+    /* border-color: #e7e7e7; */
+    border: none;
+    border-radius: 0;
+}
+#navigation{
+	position: relative;
+	margin-bottom: 165px;
+}
+.social-link{
+	position: absolute;
+	right:75px;
+	top:20px;
+	float:right;
+	
+}
+.navbar-default{
+	height: 65px;
+}
+.navbar-default .navbar-brand{
+	float:left;
+ 	padding-right: 74px;
+	font-family:'scriptina';
+	letter-spacing: 2px;
+	font-size: 25.31pt;
+	color:#ffffff;
+}
+.navbar-default .navbar-brand:hover{
+	color:rgba(255, 255, 255, 0.6);
+	transition: all 0.5s ease;
+}    
+
+.navbar-default .navbar-nav li a{
+	position: relative;
+	text-transform: uppercase;
+	font-family:'Alegreya', serif;
+	color:#ffffff;
+	padding:20px 35px 0px 35px;
+	font-size: 11.81pt;
+	letter-spacing: 2px;
+
+}
+.navbar-default .navbar-nav li a:hover{
+	color:rgba(255, 255, 255, 0.6);
+	transition: all 0.5s ease;
+}
+.navbar-default .navbar-nav li a.add-text:before{
+	position: absolute;
+	left:-4px;
+	content:'~';
+}
+.social-link a{
+	color:#ffffff;
+	padding:12px;
+}
+.social-link a:hover{
+	color:rgba(255, 255, 255, 0.6);
+	transition: all 0.5s ease;
+}
+/***************banner*******************/
+#banner{
+	text-align: center;
+	/*background-color:rgba(0,0,0, 0.1);*/
+}
+.banner-heading h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 67.63pt;
+	color:#fff;
+	margin-top:0px;
+	margin-bottom: 100px;
+}
+.banner-content p{
+	font-family:'proxima nova', Georgia, sans-serif;
+	color:#fff;
+	font-size: 20.25pt;
+	word-spacing: 2px;
+	line-height: 35px;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+
+}
+.ourmenu-btn{
+	padding:15px 40px;
+	background-color:rgba(0,0,0, 0.3);
+	color:#fff;
+	font-family:'Alegreya', serif;
+	font-weight:bold; 
+	text-transform:uppercase;
+	font-weight: bold;
+	letter-spacing:2px;
+}
+.ourmenu-btn:hover{
+	text-decoration: none;
+	transition: all 0.5s ease;
+	background-color:  #e7a331;
+
+}
+/*************end-header*********/
+/************section*************/
+.introduce{
+	padding-top:86px;
+	padding-bottom: 86px;
+	background: url('../img/st2.jpg')
+}
+.art-cakes{
+	text-align:center;
+	margin-top:-15px;}
+.img-cakes{
+	text-align: center;
+}
+.img-cakes img{
+	padding:8px;
+
+}
+h1.content-title{
+	font-family:'Alegreya', serif;
+	font-weight:600;
+	letter-spacing: 2px;
+	font-size: 3em;
+	margin-top: 0px;
+	margin-bottom:0px;
+}
+h4.content-heading{
+	font-family:'Alegreya', serif;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size:1em;
+	color:#a47d5e;
+	text-transform: uppercase;
+	letter-spacing:2px;
+	margin-bottom: 50px;
+	margin-top:5px;
+
+}
+p.content-main{
+	font-family:'proxima nova', Georgia, sans-serif;
+	font-size:11.81pt;
+	letter-spacing:px;
+	color:#56534c;
+	line-height: 25px;
+	font-weight: bold;
+	margin-bottom:14px;
+	display: inline-block;
+	max-width:450px;
+
+}
+.introduce h3{
+	font-family:'Alegreya', serif;
+	font-weight:bold;
+	font-size: 20.25pt;
+	word-spacing: 2px;
+
+}
+.chef-cook p{
+	font-family:'scriptina';
+	color:#a47d5e;
+	font-size:20.25pt;
+	line-height: 30px;
+	
+}
+.chef-cook{margin-top:15px;}
+.chef-cook a{
+	font-family:'Alegreya', serif;
+	font-weight: 400;
+	font-size: 20.25pt;
+	color:#56534c;
+	border:1px solid rgba(0, 0, 0, 0.6);
+	border-left: none;
+	border-right: none;
+	padding:15px;
+	
+}
+
+.chef-cook img{
+	width:90px;
+	height: 90px;
+	border-radius: 50%;
+	border:5px solid grey;
+	margin: 10px;
+}
+.chef-cook a:hover{
+	text-decoration: none;
+
+}
+/***********section-favorite**************/
+.favorite{
+	padding:115px 0px 95px 0px;
+	background: url('../img/section2.jpg') fixed;
+	position: relative;
+	
+}
+.side-right{
+	background:url('../img/sideright-img.jpg');
+	text-align: left;
+	padding:40px 40px 45px 50px;
+	position: relative;
+
+}
+.side-right p{margin-bottom:60px;}
+.favorite img{position: relative;
+
+}
+.cake-info{
+	position: absolute;
+	top:60px;
+	right:190px;
+}
+.side-left{
+	padding-left:40px;	
+}
+.evaluate span{
+	display: block;
+}
+.evaluate{
+	position: absolute;
+	left:10%;
+	top:50%;
+	transform:translate(0,-50%);
+	z-index: 11;
+
+}
+.evaluate span i{
+	padding:3px;
+	color:#ffffff;
+}
+.slide-img{
+	text-align: center;
+}
+
+.slide-img img{
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+/***********section-breakfast**********************/
+.breakfast{
+	height: 642px;
+	background: url('../img/section3.jpg') fixed;
+	padding-top: 70px;
+	
+}
+.menu{color:#ffffff;
+text-align: center;
+/*background:rgba(0,0,0, 0.5);*/}
+.breakfast-title h1{
+	letter-spacing: 3px;
+	font-size: 4em;
+}
+.breakfast-title h4{
+	margin-bottom: 40px;
+}
+.breakfast-menu ul{padding-left: 0px;}
+.breakfast-menu ul li{
+	list-style: none;
+	padding:10px;
+
+}
+.food-name{
+	font-family:'Alegreya', serif;
+	font-weight:bold;
+	font-size: 2em;
+	letter-spacing: 2px;
+}
+.food-include{
+	font-family: 'proxima nova', Georgia, sans-serif;
+	font-size: 1em;
+	color:rgba(255, 255, 255, 0.6);
+}
+.food-price{
+	font-family:'Alegreya', serif;
+	font-size: 2em;
+	color:#dfc691;
+}
+.breakfast-info{
+	background:url('../img/breakfast.jpg') no-repeat;
+	padding-top:180px;
+	padding-bottom: 30px;
+	text-align: center;
+
+}
+.breakfast-info h1{
+	font-size: 2.5em;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+.breakfast-info p{
+	margin-bottom: 40px;
+	line-height: 25px;
+}
+
+.btn-read a{
+	font-family:'Alegreya', serif;
+	font-weight:bold;
+	padding:10px 55px;
+	border:1px solid rgba(0, 0, 0, 0.6);
+	color:#dfc691;
+	letter-spacing: 1px;
+	font-size:12.91pt;
+	background: #ffffff;
+}
+.btn-read{
+	margin-bottom: 40px;
+}
+.btn-read a:hover{
+	text-decoration: none;
+	background-color: #e7a331;
+	transition: all 0.5s ease;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/************section-sandwich******************/
+.best-sandwich{
+	padding-top:80px;
+	padding-bottom: 35px;
+    background: url('../img/img_footer_02.jpg');
+    
+
+}
+.sandwich-title{
+	text-align: center;
+
+}
+.recipe{
+
+	text-align: center;
+}
+.recept-item{
+	padding: 15px;}
+
+.recept-item h3{
+	font-family:'Alegreya', serif;
+	font-weight:bold;
+	color:#a47d5e;
+	font-size: 25.31pt;
+}
+.recept-item p{
+	max-width: 300px;
+}
+.img-sandwich{
+	position: relative;
+}
+.btn-full-recipe{
+	position: absolute;
+	left:-17px;
+	bottom:0px;
+}
+.btn-full-recipe a{
+	text-transform: uppercase;
+	font-family:'Alegreya', serif;
+	font-weight:bold;
+	padding:15px 25px;
+	border:1px dotted #dfc691;
+	color:#dfc691;
+	letter-spacing: 1px;
+	font-size:12.91pt;
+	background: #ffffff;
+}
+.btn-full-recipe a:hover{
+	text-decoration: none;
+	background-color: #e7a331;
+	transition:all 0.5s ease;
+}
+/***footer********/
+.footer{
+	background:url('../img/end_02.jpg');
+	padding-bottom:40px;
+}
+.footer .navbar-brand{
+	font-family:'scriptina';
+	letter-spacing: 2px;
+	font-size: 25.31pt;
+	color:#56534c;}
+.footer li {
+	float:left;
+	list-style: none;
+	padding:20px 0px 20px 10px;
+
+}
+.footer li a{
+	position: relative;
+	text-transform: uppercase;
+	font-family:'Alegreya', serif;
+	color:#56534c;
+	padding:0px 25px 0px 25px;
+	font-size: 11.81pt;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.footer li a.add-text:before{
+	position: absolute;
+	left:-10px;
+	content:'~';
+}
+.footer li a:hover{
+	text-decoration: none;
+	color:rgba(0, 0, 0, 0.3);
+}
+
+.footer .navbar{
+	border:1px solid grey;
+	background: none;
+	border-left:none;
+	border-right: none;
+	
+}
+
+
+
+
+/****************animated********************/
+.animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+.animated.infinite { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+.animated.hinge { -webkit-animation-duration: 2s; animation-duration: 2s; }
+@-webkit-keyframes bounceInDown {
+    0% { opacity: 0; -webkit-transform: translateY(-2000px); transform: translateY(-2000px); }
+    60% { opacity: 1; -webkit-transform: translateY(30px); transform: translateY(30px); }
+    80% { -webkit-transform: translateY(-10px); transform: translateY(-10px); }
+    100% { -webkit-transform: translateY(0); transform: translateY(0); }
+}
+@keyframes bounceInDown {
+    0% { opacity: 0; -webkit-transform: translateY(-2000px); -ms-transform: translateY(-2000px); transform: translateY(-2000px); }
+    60% { opacity: 1; -webkit-transform: translateY(30px); -ms-transform: translateY(30px); transform: translateY(30px); }
+    80% { -webkit-transform: translateY(-10px); -ms-transform: translateY(-10px); transform: translateY(-10px); }
+    100% { -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+.bounceInDown { -webkit-animation-name: bounceInDown; animation-name: bounceInDown; }
+
+@-webkit-keyframes fadeInUpDelay {
+    0% { opacity: 0; -webkit-transform: translateY(20px); transform: translateY(20px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); }
+}
+@keyframes fadeInUpDelay {
+    0% { opacity: 0; -webkit-transform: translateY(20px); -ms-transform: translateY(20px); transform: translateY(20px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+.fadeInUpDelay { -webkit-animation-name: fadeInUpDelay; animation-name: fadeInUpDelay; animation-delay: 1s; -webkit-animation-delay: 1s; }
